@@ -30,7 +30,6 @@ public class Main {
             for ( int i = 0; i < newarray.length; i++ ) {
                     System.out.print(String.format("%-15.25s%10.2f%5s%10.2f%5s%10.2f%n", newarray[i][0], Double.parseDouble(newarray[i][1]), "X", Double.parseDouble(newarray[i][2]), "=", (Double.parseDouble(newarray[i][1]) * Double.parseDouble(newarray[i][2]))));
                     totalPrice += (Double.parseDouble(newarray[i][1]) * Double.parseDouble(newarray[i][2]));
-
             }
             System.out.println("-------------------------------------------------------");
             System.out.print(String.format("%5s%48.2f", "Total: ", totalPrice));
