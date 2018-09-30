@@ -28,7 +28,6 @@ public class Main {
             System.out.printf("%-20s%-12s%-15s%-5s%n", "Наименование", "Цена", "Количество", "Стоимость");
             System.out.println("-------------------------------------------------------");
             for ( int i = 0; i < newarray.length; i++ ) {
-                    //System.out.println(newarray[i][0]+newarray[i][1]+newarray[i][2]);
                     System.out.print(String.format("%-15.25s%10.2f%5s%10.2f%5s%10.2f%n", newarray[i][0], Double.parseDouble(newarray[i][1]), "X", Double.parseDouble(newarray[i][2]), "=", (Double.parseDouble(newarray[i][1]) * Double.parseDouble(newarray[i][2]))));
                     totalPrice += (Double.parseDouble(newarray[i][1]) * Double.parseDouble(newarray[i][2]));
 
